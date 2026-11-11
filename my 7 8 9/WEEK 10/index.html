@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8">
+        <title>Hello World</title>
+        <!-- inline css -->
+         <style>
+            /** css styles */
+         </style>
+         <!-- external style -->
+         <link href="style.css" rel="stylesheet"></link>
+</head>
+<body>
+  <main class='card'>
+    <h1>Greeting Machine </h1>
+    <label for='nameInput'>Your name</label>
+    <input id='nameInput' type='text' placeholder='Type here'>
+    <label for='countInput'>Repeat count</label>
+    <input id='countInput' type='number' min='1' max='20' value='1'>
+    <button id='greetBtn'>Greet me</button>
+    <p id='output'></p>
+  </main>
+  <script src='app.js' defer></script>
+</body>
+</html>

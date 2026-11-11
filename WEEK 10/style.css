@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #c7c5c2;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.card {
+  background-color: #4b4824;
+  padding: 24px 28px;
+  border-radius: 10px;
+  width: 360px;
+}
+
+label    { display: block; margin-top: 12px; }
+input    { width: 100%; padding: 8px; box-sizing: border-box; }
+#output  { font-weight: bold; margin-top: 16px; }
+.error   { color: #9b2318; }
+.passed  { color: #1d6b3a; }
+.failed  { color: #b45309; }
+button   { margin-top: 12px; padding: 8px 16px; cursor: pointer; }
